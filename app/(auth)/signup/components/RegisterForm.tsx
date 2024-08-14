@@ -1,8 +1,7 @@
 "use client"
-
 import Input from '@/components/Input';
 import axios from 'axios';
-import { signIn, signOut } from 'next-auth/react';
+import { signOut } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import toast from 'react-hot-toast';
